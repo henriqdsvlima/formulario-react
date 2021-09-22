@@ -20,9 +20,7 @@ function FormularioCadastro() {
         <label> Novidades</label>
         <input type="checkbox" />
 
-        <Button variant='contained' color="primary"> 
-            Cadastrar
-         </Button>
+        <Button variant='contained' color="primary"> Cadastrar </Button>
 
     </form>
     )
