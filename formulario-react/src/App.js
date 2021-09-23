@@ -1,12 +1,16 @@
+import { Container, Typography } from '@material-ui/core';
+import 'fontsource-roboto'
 import './App.css';
 import FormularioCadastro from './Components/FormularioCadastro/FormularioCadastro';
 
 function App() {
   return (
-    <>
-    <h1> Formulário de Cadastro</h1>
-    <FormularioCadastro />
-    </>
+    <Container component="article" maxWidth="sm">
+      <Typography variant='h3'  component='h1' align='center' >
+        Formulario de Cadastro
+      </Typography>
+      <FormularioCadastro  />
+    </Container>
   )
 }
 
